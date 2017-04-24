@@ -1,19 +1,19 @@
 ---
-title: 'Connect Raspberry Pi (C) to Azure IoT - Lesson 1: Get tools (macOS) | Microsoft Docs'
+title: 'Connect Raspberry Pi (Node) to Azure IoT - Lesson 1: Get tools (macOS) | Microsoft Docs'
 description: Download and install the necessary tools and software for the first sample application for Pi on macOS.
 services: iot-hub
 documentationcenter: ''
 author: shizn
-manager: timtl
+manager: timlt
 tags: ''
-keywords: 'iot development, iot software, internet of things software, install git on mac, gulp run, install node js mac'
+keywords: 'iot development, iot software, internet of things software, install python mac, install git on mac, gulp run, install node js mac'
 
 ROBOTS: NOINDEX
-redirect_url: /azure/iot-hub/iot-hub-raspberry-pi-kit-c-get-started
+redirect_url: /azure/iot-hub/iot-hub-raspberry-pi-kit-node-get-started
 
-ms.assetid: fc6bd2c8-a847-4bf5-818f-6f7f9a6835ee
+ms.assetid: 2ea6d211-c0e8-4ade-ac69-d1c2261d78c4
 ms.service: iot-hub
-ms.devlang: c
+ms.devlang: node
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -23,15 +23,12 @@ ms.author: xshi
 ---
 # Get the tools (macOS 10.10)
 > [!div class="op_single_selector"]
-> * [Windows 7 or later](iot-hub-raspberry-pi-kit-c-lesson1-get-the-tools-win32.md)
-> * [Ubuntu 16.04](iot-hub-raspberry-pi-kit-c-lesson1-get-the-tools-ubuntu.md)
-> * [macOS 10.10](iot-hub-raspberry-pi-kit-c-lesson1-get-the-tools-mac.md)
+> * [Windows 7 or later](iot-hub-raspberry-pi-kit-node-lesson1-get-the-tools-win32.md)
+> * [Ubuntu 16.04](iot-hub-raspberry-pi-kit-node-lesson1-get-the-tools-ubuntu.md)
+> * [macOS 10.10](iot-hub-raspberry-pi-kit-node-lesson1-get-the-tools-mac.md)
 
 ## What you will do
-Download the development tools and the software for the first sample application for your Raspberry Pi 3. If you have any problems, look for solutions on the [troubleshooting page](iot-hub-raspberry-pi-kit-c-troubleshooting.md).
-
-> [!NOTE]
-> Although the programming language of the main logic is C, Node.js tools are used in the lessons to discover devices, and build and deploy sample applications.
+Download the development tools and the software for the first sample application for your Raspberry Pi 3. If you have any problems, look for solutions on the [troubleshooting page](iot-hub-raspberry-pi-kit-node-troubleshooting.md).
 
 ## What you will learn
 In this article, you will learn:
@@ -67,15 +64,15 @@ To install Git and Node.js, use the [Homebrew](http://brew.sh) package managemen
    ```
 
 ## Install additional Node.js development tools
-Use [gulp.js](http://gulpjs.com) to automate the deployment of the sample application to your Pi. Use the [device-discovery-cli](https://github.com/Azure/device-discovery-cli) to retrieve network information about your IoT devices.
+Use [gulp.js](http://gulpjs.com) to automate the deployment of the sample application to Pi. Use the [device-discovery-cli](https://github.com/Azure/device-discovery-cli) to retrieve network information about your IoT devices.
 
 Install `gulp` and `device-discovery-cli` by running the following command in the terminal:
 
 ```bash
-sudo npm install -g device-discovery-cli gulp
+npm install -g device-discovery-cli gulp
 ```
 
-If you experience issues installing Node.js and these additional development tools on macOS, see the [troubleshooting guide](iot-hub-raspberry-pi-kit-c-troubleshooting.md) for solutions to common problems.
+If you experience issues installing Node.js and these additional development tools on macOS, see the [troubleshooting guide](iot-hub-raspberry-pi-kit-node-troubleshooting.md) for solutions to common problems.
 
 ## Install Visual Studio Code
 [Download](https://code.visualstudio.com/docs/setup/osx) and install Visual Studio Code. Visual Studio Code is a lightweight but powerful source code editor for Windows, Linux, and macOS. You use this editor later in the tutorial to edit the sample code.
@@ -84,5 +81,5 @@ If you experience issues installing Node.js and these additional development too
 You've installed the required development tools and software for the first sample application. The next task is to create, deploy, and run the sample application on Pi.
 
 ## Next steps
-[Create and deploy the blink application](iot-hub-raspberry-pi-kit-c-lesson1-deploy-blink-app.md)
+[Create and deploy the blink sample application](iot-hub-raspberry-pi-kit-node-lesson1-deploy-blink-app.md)
 

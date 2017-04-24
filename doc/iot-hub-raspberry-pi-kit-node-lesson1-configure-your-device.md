@@ -1,19 +1,20 @@
 ---
-title: 'Connect Raspberry Pi (C) to Azure IoT - Lesson 1: Configure device | Microsoft Docs'
+title: 'Connect Raspberry Pi (Node) to Azure IoT - Lesson 1: Configure device | Microsoft Docs'
+description: Configure Raspberry Pi 3 for first-time use and install the Raspbian OS, a free operating system that is optimized for the Raspberry Pi hardware.
 description: Configure Raspberry Pi 3 for first-time use and install the Raspbian OS, a free operating system that is optimized for the Raspberry Pi hardware.
 services: iot-hub
 documentationcenter: ''
 author: shizn
-manager: timtl
+manager: timlt
 tags: ''
 keywords: 'install raspbian, raspbian download, how to install raspbian, raspbian setup, raspberry pi install raspbian, raspberry pi install os, raspberry pi sd card install, raspberry pi connect, connect to raspberry pi, raspberry pi connectivity'
 
 ROBOTS: NOINDEX
-redirect_url: /azure/iot-hub/iot-hub-raspberry-pi-kit-c-get-started
+redirect_url: /azure/iot-hub/iot-hub-raspberry-pi-kit-node-get-started
 
-ms.assetid: 8ee9b23c-93f7-43ff-8ea1-e7761eb87a6f
+ms.assetid: 43f7c2cf-f1a5-4dd5-93f0-7e546c6dc91e
 ms.service: iot-hub
-ms.devlang: c
+ms.devlang: node
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -23,7 +24,7 @@ ms.author: xshi
 ---
 # Configure your device
 ## What you will do
-Configure Pi for first-time use and install the Raspbian operating system. Raspbian is a free operating system that is optimized for the Raspberry Pi hardware. If you have any problems, look for solutions on the [troubleshooting page](iot-hub-raspberry-pi-kit-c-troubleshooting.md).
+Configure Pi for first-time use and install the Raspbian operating system. Raspbian is a free operating system that is optimized for the Raspberry Pi hardware. If you have any problems, you can seek solutions on the [troubleshooting page](iot-hub-raspberry-pi-kit-node-troubleshooting.md).
 
 ## What you will learn
 In this article, you will learn:
@@ -33,7 +34,7 @@ In this article, you will learn:
 * How to connect Pi to the network by using an Ethernet cable or wireless network.
 * How to add an LED to the breadboard and connect it to Pi.
 
-## What you need
+## What you will need
 To complete this operation, you need the following parts from your Raspberry Pi 3 Starter Kit:
 
 * The Raspberry Pi 3 board
@@ -50,11 +51,11 @@ To complete this operation, you need the following parts from your Raspberry Pi 
 You also need:
 
 * A wired or wireless connection for Pi to connect to.
-* A USB-SD adapter or mini-SD card to burn the OS image onto the microSD card.
+* A USB-SD adapter or miniSD card to burn the operating system image onto the microSD card.
 * A computer running Windows, Mac, or Linux. The computer is used to install Raspbian on the microSD card.
 * An Internet connection to download the necessary tools and software.
 
-## Install Raspbian on the MicroSD card
+## Install Raspbian on the microSD card
 Prepare the microSD card for installation of the Raspbian image.
 
 1. Download Raspbian.
@@ -67,8 +68,8 @@ Prepare the microSD card for installation of the Raspbian image.
       Note that Etcher may have already selected the correct drive.
    4. Click **Flash** to install Raspbian to the microSD card.
    5. Remove the microSD card from your computer when installation is complete.
-      It is safe to remove the microSD card directly because Etcher automatically ejects or unmounts the microSD card upon completion.
-   6. Insert the microSD card into your Pi.
+      It's safe to remove the microSD card directly because Etcher automatically ejects or unmounts the microSD card upon completion.
+   6. Insert the microSD card into Pi.
 
 ![Insert the SD card](media/iot-hub-raspberry-pi-lessons/lesson1/insert_sdcard.jpg)
 
@@ -115,5 +116,5 @@ In this article, you’ve learned how to configure Pi by installing Raspbian, co
 ![Hardware is ready](media/iot-hub-raspberry-pi-lessons/lesson1/hardware_ready.jpg)
 
 ## Next steps
-[Get the tools](iot-hub-raspberry-pi-kit-c-lesson1-get-the-tools-win32.md)
+[Get the tools](iot-hub-raspberry-pi-kit-node-lesson1-get-the-tools-win32.md)
 

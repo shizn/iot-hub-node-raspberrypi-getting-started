@@ -1,19 +1,19 @@
 ---
-title: 'Connect Raspberry Pi (C) to Azure IoT - Lesson 2: Azure tools (Windows) | Microsoft Docs'
+title: 'Connect Raspberry Pi (Node) to Azure IoT - Lesson 2: Get tools (Windows) | Microsoft Docs'
 description: Install Python and the Azure command-line interface (Azure CLI) on Windows 7 and later versions.
 services: iot-hub
 documentationcenter: ''
 author: shizn
-manager: timtl
+manager: timlt
 tags: ''
 keywords: 'iot cloud service, azure cli'
 
 ROBOTS: NOINDEX
-redirect_url: /azure/iot-hub/iot-hub-raspberry-pi-kit-c-get-started
+redirect_url: /azure/iot-hub/iot-hub-raspberry-pi-kit-node-get-started
 
-ms.assetid: a3c083b5-0d76-46af-bc77-2ad7d8aadc1e
+ms.assetid: acfa13e3-6d2c-4e68-9a77-1cbc2cf3f9c1
 ms.service: iot-hub
-ms.devlang: c
+ms.devlang: node
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -23,12 +23,12 @@ ms.author: xshi
 ---
 # Get Azure tools (Windows 7 and later)
 > [!div class="op_single_selector"]
-> * [Windows 7 and later](iot-hub-raspberry-pi-kit-c-lesson2-get-azure-tools-win32.md)
-> * [Ubuntu 16.04](iot-hub-raspberry-pi-kit-c-lesson2-get-azure-tools-ubuntu.md)
-> * [macOS 10.10](iot-hub-raspberry-pi-kit-c-lesson2-get-azure-tools-mac.md)
+> * [Windows 7 and later](iot-hub-raspberry-pi-kit-node-lesson2-get-azure-tools-win32.md)
+> * [Ubuntu 16.04](iot-hub-raspberry-pi-kit-node-lesson2-get-azure-tools-ubuntu.md)
+> * [macOS 10.10](iot-hub-raspberry-pi-kit-node-lesson2-get-azure-tools-mac.md)
 
 ## What you will do
-Install Python and the Azure command-line interface (Azure CLI). If you have any problems, look for solutions on the [troubleshooting page](iot-hub-raspberry-pi-kit-c-troubleshooting.md).
+Install Python and the Azure command-line interface (Azure CLI). If you have any problems, look for solutions on the [troubleshooting page](iot-hub-raspberry-pi-kit-node-troubleshooting.md).
 
 ## What you will learn
 In this article, you will learn:
@@ -45,7 +45,7 @@ In this article, you will learn:
 You also need to add the path of the folders where python.exe and pip.exe are installed to the system `PATH` environment variable. By default, python.exe is installed in `C:\Python27` and pip.exe is installed in `C:\Python27\Scripts`.
 
 ## Install the Azure CLI
-The Azure CLI provides a multiplatform command-line experience for Azure. You work directly from your command line to provision and manage resources.
+The Azure CLI provides a multiplatform command-line experience for Azure. You work directly from your command-line to provision and manage resources.
 
 To install the Azure CLI, follow these steps:
 
@@ -70,5 +70,5 @@ You see the following output if the installation is successful.
 You've installed the Azure CLI. Your next task to create your Azure IoT hub and device identity by using the Azure CLI.
 
 ## Next steps
-[Create your IoT hub and register Raspberry Pi 3](iot-hub-raspberry-pi-kit-c-lesson2-prepare-azure-iot-hub.md)
+[Create your IoT hub and register Raspberry Pi 3](iot-hub-raspberry-pi-kit-node-lesson2-prepare-azure-iot-hub.md)
 
